@@ -1,0 +1,20 @@
+<div class="row"><div class="col-md-10 float-end"><a href="/dash/" class="btn btn-warning float-end">Back</a></div></div>
+<div class="row"><div class="col-md-6"><h4>Name :  {{crt.cust.name}}</h4></div></div>
+<div class="row" style="padding-top: 1%;"><div class="col-md-6"><h5>Phone :  {{crt.cust.phone}}</h5></div></div>
+<div class="row" style="padding-top: 1%;"><div class="col-md-6"><h5>Address :  {{crt.cust.address}} - {{crt.cust.area}}</h5></div></div>
+<div class="row" style="padding-top: 1%;"><div class="col-md-6"><h5>Order :  {{crt.transaction_id}}</h5></div></div>
+<div class="row" style="padding-top: 1%;"><div class="col-md-6"><h5>Total :  {{crt.total}}</h5></div></div>
+<div class="row" style="padding-top: 1%;"><div class="col-md-6"><h5>Note :  {{crt.note}}</h5></div></div>
+<div class=" row " style="padding-top: 1%;"><table class="table"><thead><tr><th colspan="2">Item</th><th>Quantity</th><th>Price</th></tr></thead>
+<tbody>
+	{% for i in pcrt %}
+	<tr>
+		<td>{{i.product.product}}</td>
+		<td>{{i.product.product_lc}}</td>
+		<td>{{i.quantity}}</td>
+		<td>{{i.price}}</td>
+	</tr>
+{% endfor %}
+</tbody>
+</table></div>
+</div>

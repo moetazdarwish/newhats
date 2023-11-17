@@ -1,0 +1,103 @@
+﻿3,"May we have your name, please?",لخدماتك بطريقه افضل ، نرجو بمعرفت اسمك,0,False,False
+1,Welcome To,مرحبا بك في,0,True,False
+1,Please Choice Language,يرجى اختيار اللغة,0,False,False
+1,English,,0,False,True
+1,,عربي,0,False,True
+4,Hi,مرحبا,0,True,False
+4,Please Select From Menu,الرجاء الاختيار من القائمة,0,False,False
+4,To Return main menu press 0,للعودة إلى القائمة الرئيسية اضغط 0,0,False,False
+4,Shopping,تسوق,5,False,True
+4,FAQ,الأسئلة الشائعة,26,False,True
+4,Talk To live Person,تحدث إلى شخص,28,False,True
+6,Please Select Filter,الرجاء تحديد عامل التصفية,0,False,False
+6,Filters,تصنيفات,,False,False
+5,Please Select Category,من فضلك اختر من القسم,0,False,False
+6,Products Filters,تصنيفات المنتجات,,False,False
+6,All Items,كافة العناصر,8,False,False
+7,Please write Amount,يرجى كتابة المبلغ,9,False,False
+13,Added,تمت إضافة,0,False,False
+13,To Add more Continue Selection or Action From Below,لإضافة المزيد كمل اختياراتك أو اختار من الأسفل,0,False,False
+13,Remove Item,إزالة المنتج,15,False,True
+13,Checkout,اتمام الطلب,14,False,False
+14,Add Note,اضف ملاحظة,17,False,True
+14,Confirm Order,تأكيد الطلب,16,False,True
+15,Removed,Removed,0,False,False
+15,To Add more Continue Selection or Action From Below,لإضافة المزيد كمل اختياراتك أو اختار من الأسفل,0,False,False
+15,Checkout,اتمام الطلب,14,False,True
+16,Shopping Cart,السلة,0,False,False
+16,Total,إجمالي,0,False,False
+16,Cancel Order,الغاء الطلب,0,False,True
+16,Confirm Order,تأكيد الطلب,18,False,True
+17,Please Write Note Max 150 character,يرجى كتابة ملاحظة بحد أقصى 150 حرفًا,0,False,False
+18,Order Confirmed,تم تاكيد الطلب,0,False,False
+18,Order No.,رقم الطلب,0,True,False
+19,Order Has Been Canceled,تم إلغاء الطلب,0,False,False
+21,Please Write Your address,من فضلك اكتب عنوانك,22,False,False
+22,Area,منطقة,23,False,False
+23,For Best accuracy please share your location,للحصول على أفضل دقة، يرجى مشاركة موقعك,24,False,False
+30,Wrong Choice,خيار خاطئ,0,False,False
+26,Please Select From Menu,الرجاء الاختيار من القائمة,0,False,False
+26,Show,إظهار,0,False,False
+26,Most Common Question,السؤال الأكثر شيوعا,0,False,False
+28,Customer Care Will Contact You Shortly,سوف تتصل بك خدمة العملاء قريبًا,0,False,False
+29,Customer Call Request,طلب اتصال,0,False,False
+29,Name,اسم,0,False,False
+29,Phone,هاتف,0,False,False
+9,please write Amount,يرجى كتابة المبلغ,0,False,False
+10,Please Write Product Name,يرجى كتابة اسم المنتج,0,False,False
+20,Name,اسم,0,False,False
+20,phone,هاتف,0,False,False
+20,address,عنوان,0,False,False
+20,order,الطلب,0,False,False
+53,Hi,مرحبا,0,True,False
+53,Please Select From Menu,الرجاء الاختيار من القائمة,0,False,False
+53,To Return main menu press 0,للعودة إلى القائمة الرئيسية اضغط 0,0,False,False
+53,Reservation,حجز,54,False,True
+53,Address and Location,العنوان والموقع,58,False,True
+54,Please Select Service,من فضلك اختر من الخدمات,0,False,False
+55,Price,سعر,0,False,False
+55,Dates,تاريخ,0,False,False
+55,Schedules,جداول,0,False,False
+200,Please SelectTime,الرجاء تحديد الوقت,0,False,False
+200,Display,إظهار,0,False,False
+200,Available Time Slot,الوقت المتاحة,0,False,False
+56,Appointment Has Been Confirmed,تم تأكيد الموعد,0,False,False
+59,Appointment Has Been Cancelled,تم إلغاء الموعد,0,False,False
+53,Talk To live Person,تحدث إلى شخص,60,False,True
+60,Customer Care Will Contact You Shortly,سوف تتصل بك خدمة العملاء قريبًا,0,False,False
+61,Customer Call Request,طلب اتصال,0,False,False
+61,Name,اسم,0,False,False
+61,Phone,هاتف,0,False,False
+50,Welcome To,,0,True,False
+50,Please Select Language,,0,False,False
+50,English,,0,False,True
+50,,عربي,0,False,True
+52,"May we have your name, please?",لخدماتك بطريقه افضل ، نرجو بمعرفت اسمك,0,False,False
+80,Welcome To,,0,True,False
+80,Please Select Language,,0,False,False
+80,English,,0,False,True
+80,,عربي,0,False,True
+51,Welcome To,مرحبا بك,0,True,False
+81,Welcome To,مرحبا بك,0,True,False
+82,"May we have your name, please?",لخدماتك بطريقه افضل ، نرجو بمعرفت اسمك,0,False,False
+83,Hi,مرحبا,0,True,False
+83,Please Select From Menu,الرجاء الاختيار من القائمة,0,False,False
+83,To Return main menu press 0,للعودة إلى القائمة الرئيسية اضغط 0,0,False,False
+83,Reservation,حجز,84,False,True
+83,Address and Location,العنوان والموقع,88,False,True
+84,Please Select Clinic,من فضلك اختر من العيادات,85,False,False
+85,Please Select Day,الرجاء تحديد اليوم,86,False,False
+86,Display Doctors and schedules,عرض الأطباء والمواعيد,87,False,False
+87,Reservation Has Been Confirmed,تم تأكيد الموعد,0,False,False
+84,Clinic,العيادات,0,False,False
+85,Days,ايام,0,False,False
+86,Display,عرض,0,False,False
+86,Cost,القيمة,0,False,False
+86,from,من,0,False,False
+86,to,حتي,0,False,False
+2,Welcome To,مرحبا بك,0,True,False
+6,By Price,حسب السعر,9,False,False
+6,Product Name,اسم المنتج,10,False,False
+6,Offers,عروض,11,False,False
+55,From,من,0,False,False
+55,to,الي,0,False,False

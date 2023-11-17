@@ -1,0 +1,30 @@
+<div class="col-md-10">
+                         
+	<table class="table">
+		<thead>
+		<tr style="text-align: center;">
+			<th>Date</th>
+			
+			<th>Phone</th>
+			<th>Status</th>
+			
+			<th colspan="1">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for i in crt %}
+		<tr style="text-align: center;">
+			<td>{{i.date}}</td>
+			<td>{{i.name.phone}}</td>
+		   
+			<td> {% if i.status == 'CREATED' %} NOT COMPLETED {% elif i.status == 'CONFIRMED' %} CUSTOMER BUYED {% elif i.status == 'CANCELED' %} CUSTOMER NOT CANCEL {% elif i.status == 'CLOSED' %} CUSTOMER NOT CANCEL {% endif %}</td>
+			
+			
+			<td><a class="btn btn-warning" href="/allconvdtls/{{i.id}}/" target="_blank" >Converstation</a></td>
+		</tr>
+		{% endfor %}
+	   
+	</tbody>
+</table>
+   
+</div>

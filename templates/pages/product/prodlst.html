@@ -1,0 +1,10 @@
+<ul>
+    {% for i in ap %}
+    <li style="padding-top: 1%;"><div class="row" style="align-items: center">
+    <div class="col-md-3" style="vertical-align:middle;"><span>{{i.product}}</span></div>
+    <div class="col-md-3" style="vertical-align:middle;"><span>{{i.product_lc}}</span></div>
+    <div class="col-md-3"><a class="btn btn-warning btn-reounded"  href="/display/{{i.id}}/" target="_blank"> Details</a></div>
+    <div class="col-md-3"><a class="btn btn-danger btn-reounded" hx-headers='{ "X-CSRFToken": "{{ csrf_token }}"} '  hx-post="/prodDetails/{{pk}}/del/" hx-target="#dlts" hx-vals='{"data": "{{i.id}}"}'  > Remove</a></div>
+</div></li>
+{% endfor %}
+</ul>

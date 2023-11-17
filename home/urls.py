@@ -1,0 +1,30 @@
+from django.urls import path, include
+from . import views
+
+urlpatterns = [
+    path('', views.home, name="home"),
+    path('login/', views.login, name="login"),
+    path('signup/', views.signup, name="signup"),
+    path('cart/', views.cart, name="cart"),
+    path('dash/', views.dash, name="dash"),
+    path('whatsapp/', views.whatsapp, name="whatsapp"),
+    path('logout_view/', views.logout_view, name="logout_view"),
+    path('setup/', views.settPage, name="setup"),
+    path('setting/<pk>/', views.setting, name="setting"),
+    path('selectProdCat/<pk>/<str:action>/', views.selectProdCat, name="selectProdCat"),
+    path('selectCat/<pk>/<str:action>/', views.selectCat, name="selectCat"),
+    path('detail/<pk>/<str:action>/', views.serviceDetails, name="serviceDetails"),
+    path('prodDetails/<pk>/<str:action>/', views.productDetails, name="productDetails"),
+    path('display/<pk>/', views.displayproduct, name="displayproduct"),
+    path('daylst/<pk>/', views.addDaysService, name="addDaysService"),
+    path('daylst/<pk>/<str:action>/', views.addDaysService, name="addDaysService"),
+    path('prodFAQ/<pk>/', views.prodFAQ, name="prodFAQ"),
+    path('orddetls/<pk>/', views.orddetls, name="orddetls"),
+    path('convdtls/<pk>/', views.convdtls, name="convdtls"),
+    path('allconvdtls/<pk>/', views.allconvdtls, name="allconvdtls"),
+    path('conv/', views.conv, name="conv"),
+    path('dashsearch/', views.dashsearch, name="dashsearch"),
+    path('consearch/', views.consearch, name="consearch"),
+    path('template/', views.templ, name="templ"),
+    path('selection/', views.templSelection, name="templSelection"),
+]

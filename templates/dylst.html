@@ -1,0 +1,12 @@
+<div class="col-md-5">
+<ul id="lst">
+    {% for i in sh %}
+    <li style="padding-bottom: 1%;">
+        <div class="row" style="align-items: center">
+            <div class="col-md-8" style="vertical-align:middle;"><span>{{i.start}}</span></div>
+            <div class="col-md-3"><button class="btn btn-danger" hx-headers='{ "X-CSRFToken": "{{ csrf_token }}"} '  hx-post="/daylst/{{ap}}/del/" hx-vals='{"value": "{{i.id}}"}' hx-trigger="click" hx-target="#dylst">Remove</button></div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+</div>

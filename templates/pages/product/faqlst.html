@@ -1,0 +1,12 @@
+<table class="table"><thead style="text-align: center;vertical-align: middle;"><th style="width: 5%;">No.</th><th style="width: 25%;">Question</th><th>Answer</th><th>Action</th></thead><tbody style="text-align: center;vertical-align: middle;">
+	{% for i in faq %}
+	<tr>
+		<td>{{forloop.counter}}</td>
+		<td>{{i.question}}</td>
+	   
+		<td >{{i.answer}}</td>
+		<td ><button class="btn btn-danger " hx-headers='{ "X-CSRFToken": "{{ csrf_token }}"} ' hx-post="/prodFAQ/{{pk}}/" hx-target="#dlts" hx-vals='{"action": "del","fadel":{{i.id}}}'>Delete</button></td>
+	</tr>
+	<tr><td></td><td>{{i.question_lc}}</td><td >{{i.answer_lc}}</td></tr>
+	{% endfor %}
+</tbody></table>
