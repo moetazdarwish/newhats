@@ -59,7 +59,8 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django_htmx.middleware.HtmxMiddleware',
 ]
-
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
 ROOT_URLCONF = 'msgbot.urls'
 CORS_ORIGIN_ALLOW_ALL = True
 TEMPLATES = [
